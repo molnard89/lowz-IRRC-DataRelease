@@ -25,9 +25,9 @@ Column description:
  
   Column (10 - 37): S_band and E_band -- flux densities and their errors as tabulated in the various archival catalogues used to assemble our data (see Sect 2) in Jy. These bands are $22\,\mu$m WISE, $60\,\mu$m IRAS, $100\,\mu$m IRAS, $100\,\mu$m H-ATLAS, $100\,\mu$m PPSC, $160\,\mu$m H-ATLAS, $160\,\mu$m PPSC, $250\,\mu$m H-ATLAS, $250\,\mu$m SPSC, $350\,\mu$m H-ATLAS, $350\,\mu$m SPSC, $500\,\mu$m H-ATLAS, $500\,\mu$m SPSC, $1.4$GHz flux density (either NVSS or FIRST, see Sect. 2.2), respectively. We note that the IR flux values published here are \textit{not} re-scaled/corrected\footnote{Before SED fitting we carried out the following modifications: (i) we multiplied our $100$ and $160\,\mu$m PPSC data by 1.19 and 1.10, respectively; (ii) we increased the uncertainty of all PPSC and HPSC measurements by adding 0.05, 0.08, 0.06, 0.05 and 0.03 Jy in quadrature to the tabulated flux density uncertainties of 100, 160, 250, 350 and 500 $\mu$m data.}
  
-  Column (38): logL1.4 -- 1.4\,GHz radio luminosity in units of $\log(\mathrm{W Hz^{-1}})$.
+  Column (38): logL1.4 -- 1.4 GHz radio luminosity in units of $\log(\mathrm{W Hz^{-1}})$.
  
-  Column (39): logdL1.4 -- 1.4\,GHz radio luminosity uncertainty.
+  Column (39): logdL1.4 -- 1.4 GHz radio luminosity uncertainty.
  
   Column (40): logLTIR -- Total IR logarithmic luminosity from IR SED fitting (see Sect. 3.1.1) in units of $\log(L_{\odot})$.
  
@@ -37,9 +37,9 @@ Column description:
  
   Column (43): logdLFIR_low -- Lower log(LTIR) luminosity uncertainty corresponding to the difference of the median and the 16th percentile of the marginalized log(LTIR) posterior distributions from our MCMC fits. We note that the errors on $\log(L_{\rm FIR})$ and log(LTIR) are considered to be equal.
  
-  Column (44): qTIR -- qTIR calculated with Columns (38) and (40). By definition $q_{\rm FIR}$ is lower than qTIR by $\log(L_{\rm TIR}) - \log(L_{\rm FIR})$.
+  Column (44): qTIR -- qTIR calculated with Columns (38) and (40).
  
-  Column (45): qFIR -- $q_{\rm FIR}$ calculated with Columns (38) and (41). By definition $q_{\rm FIR}$ is lower than qTIR by $\log(L_{\rm TIR}) - \log(L_{\rm FIR})$.
+  Column (45): qFIR -- qFIR calculated with Columns (38) and (41). By definition qFIR is lower than qTIR by logLTIR - logLFIR.
  
   Column (46): dqTIR_upp -- Upper error on qTIR, calculated by propagating the uncertainties in Columns (39) and (42)).
  
