@@ -1,6 +1,6 @@
 # Low-z IRRC Data Release
 
-Publicly available catalogue released in Molnár et al 2021 (link TBD).
+Publicly available catalogue released in Molnár et al 2021 (https://arxiv.org/abs/2103.04803).
 [![DOI](https://zenodo.org/badge/344211798.svg)](https://zenodo.org/badge/latestdoi/344211798)
 
 
